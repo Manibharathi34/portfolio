@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Manibharathi's Portfolio</title>
+
     <meta property="og:title" content="Manibharathi Tamilarasan">
     <meta name="author" content="Manibharathi Tamilarasan">
     <meta property="og:locale" content="en_US">
@@ -20,9 +21,9 @@
     <meta name="theme-color" content="#ffffff">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
@@ -37,16 +38,85 @@
            
                 <a class="menu-items" id="skills-menu" href="#">Skills</a>
                 <a class="menu-items" id="experience-menu" href="#">Experience</a>
-                <a class="menu-items" id="contact-menu" href="#">Contact</a>
+                <!-- <a class="menu-items" id="contact-menu" href="#">Contact</a>  -->
         </div>
     </nav>
 
+    <hr>
+
     <main class="main-container" id="main">
+
+        <section id="home">
+            <header>
+                <h1> Full stack developer, AWS certified</h1>
+            </header>
+        
+            <div class="acclaims">
+                <a href="https://www.youracclaim.com/badges/d408d7d1-f652-4516-86ec-01649b80ac70/public_url" target="_blank" class="aws-cert">
+                    <img src="img/aws.png" alt="AWS certified developer associate">
+                </a>
+                <a href="https://www.youracclaim.com/badges/89363e3c-44ed-485c-8776-049b4152208f/public_url" target="_blank" class="java-cert">
+                    <img src="img/oracle.png" alt="Java SE certified">
+                </a>
+            </div>
+        
+            <div class="my-intro">
+                <p>Hi, I'm Manibharathi</p>
+                <p>I'm working as Web developer for 9 years and along the way I learned both front-end and back-end tech stacks.</p>
+                <p>
+                    <a href="docs/Manibharathi_Resume.pdf" target="_blank" class="download" download>
+                        <img src="img/svg/download-button.svg" alt="download Icon" class="download-svg"> 
+                        <span>Download Resume</span> 
+                    </a>
+                </p>
+            </div>
+        
+            <div class="full-stack-icons">
+                <div class="icons-first">
+                    <img src="img/svg/java-4.svg" alt="Java" class="tech-icon">
+                    <img src="img/svg/spring-3.svg" alt="Spring" class="tech-icon">
+                    <img src="img/svg/aws-2.svg" alt="AWS" class="tech-icon">
+                </div>
+                <div class="icons-second">
+                    <img src="img/svg/angular-icon-1.svg" alt="Angular" class="tech-icon angular-icon">
+                    <img src="img/svg/men-sit-on-table.svg" alt="Developer" class="developer-img">
+                    <img src="img/svg/html5.svg" alt="HTML5" class="tech-icon html5-icon">
+                </div>
+            </div>
+        </section>
 
     </main>
 
+    <hr>
 
-    <script src="js/eventHandler.js"></script>
+    <footer>
+        <div class="footer-item">
+            <p>Email:</p>
+            <a href="mailto:manibharathi34@gmail.com" class="emailTo">
+                <img src="img/svg/email-circle.svg" alt="Email Icon" class="email-svg">
+            </a>
+        </div>
+
+        <div class="footer-item">
+            <p>LinkedIn:</p>
+            <a href="https://www.linkedin.com/in/mani-bharathi-96679837/" target="_blank" class="linkedin">
+                <img src="img/svg/linkedin-circle.svg" alt="Linkedin Icon" class="linkedin-svg">
+            </a>
+        </div>
+
+        <div class="footer-item">
+            <p>Resume:</p>
+            <a href="docs/Manibharathi_Resume.pdf" target="_blank" class="download" download>
+                <img src="img/svg/download-button.svg" alt="download Icon" class="download-svg">
+            </a>
+        </div>
+        
+        
+    </footer>
+
+
+
+    <script src="./js/eventHandler.min.js"></script>
 </body>
 
 </html>

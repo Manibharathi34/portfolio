@@ -3,7 +3,7 @@
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
+
 	.st1{fill:#D6953E;}
 	.st2{fill:#B57B35;}
 	.st3{fill:#285C77;}
@@ -35,9 +35,7 @@
 	.st29{display:none;}
 	.st30{display:inline;}
 </style>
-<g id="BACKGROUND">
-	<rect id="XMLID_1_" class="st0" width="500" height="500"/>
-</g>
+
 <g id="OBJECTS">
 	<g>
 		<g>
@@ -159,8 +157,7 @@
 		</g>
 	</g>
 	<g>
-		<path class="st16" d="M422,368.7H78c-3.1,0-5.6-2.5-5.6-5.6l0,0c0-3.1,2.5-5.6,5.6-5.6h344c3.1,0,5.6,2.5,5.6,5.6l0,0
-			C427.6,366.2,425.1,368.7,422,368.7z"/>
+		
 		<path class="st6" d="M316.2,368.7H183.8c-3.1,0-5.6-2.5-5.6-5.6l0,0c0-3.1,2.5-5.6,5.6-5.6h132.5c3.1,0,5.6,2.5,5.6,5.6l0,0
 			C321.9,366.2,319.3,368.7,316.2,368.7z"/>
 	</g>
